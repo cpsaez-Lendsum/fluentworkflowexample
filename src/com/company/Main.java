@@ -28,7 +28,6 @@ public class Main {
         FakePayload data=new FakePayload("Request:", "Response:", "1");
         data=(FakePayload) workflow.Run(data);
 
-        System.console().writer().print(data.Request);
         System.console().writer().print(data.Response);
 
     }
